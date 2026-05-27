@@ -1,3 +1,12 @@
+* Moderate */
+
+//
+//  ConfidenceVariable.swift
+//  Unvarnished
+//
+//  Created by Kaitlin Taylor on 5/27/26.
+//
+
 //
 //  ConfidenceModerate.swift
 //  Unvarnished
@@ -23,11 +32,11 @@ struct ConfidenceModerate: View {
                 stabilityHeader
 
                 VStack(spacing: 32) {
-                    stabilityRow(name: "Freelance", filled: 3, label: "Variable")
-                    stabilityRow(name: "Consulting", filled: 5, label: "Stable")
-                    stabilityRow(name: "Side Clients", filled: 4, label: "Moderate")
-                    stabilityRow(name: "Grants", filled: 5, label: "Stable")
-                    stabilityRow(name: "Commission", filled: 4, label: "Moderate")
+                    stabilityRow(name: "Payroll", filled: 5, label: "Stable")
+                    stabilityRow(name: "Government Benefits", filled: 5, label: "Stable")
+                    stabilityRow(name: "Retainer", filled: 4, label: "Moderate")
+                    stabilityRow(name: "Pension", filled: 5, label: "Stable")
+                    stabilityRow(name: "Retirement", filled: 5, label: "Stable")
                 }
 
                 Spacer()
